@@ -1,0 +1,102 @@
+.btn {
+   background-color: black;
+    border: none;
+    display: block;
+    color: white;
+    font-size: 150%;
+    background: radial-gradient(at bottom, rgb(112, 112, 112) 0%, rgba(0, 0, 0, 255) 59%);
+    background-repeat: no-repeat;
+    transition: all 0.4s ease-in-out;
+}
+body {
+    background-color: rgb(34, 34, 34);
+    
+}
+
+.btn-container {
+    display: inline-block;
+}
+.btn-border {
+    position: relative;
+    background-image: linear-gradient(to right, rgba(0,0, 0, 255),rgba(255, 255, 255), rgba(0, 0, 0, 0));
+    padding: 1px;
+    border-radius: 19px;
+}
+.btn:hover {
+    background-color: black;
+    border: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    background: radial-gradient(at bottom, rgb(148, 148, 148) 0%, rgba(0, 0, 0, 255) 79%);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.menuOption {
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 9px;
+}
+
+.menuOption:hover {
+    background-image: linear-gradient(to top, rgb(131, 131, 131) 5%, rgba(0, 0, 0, 255) 60%);
+    cursor: pointer;
+}
+
+.editText-container {
+    display: inline-block;
+}
+
+.editText-border {
+    position: relative;
+    background-image: linear-gradient(to right, rgba(0,0, 0, 255),rgb(0, 140, 255), rgba(0, 0, 0, 0));
+    padding: 1px;
+    border-radius: 19px;
+}
+
+.editText {
+    background-color: white;
+    color: gray;
+}
+
+.titleBar {
+    background-image: linear-gradient(to bottom, rgb(0, 140, 255), rgb(0, 50, 255));
+	font-family: sans-serif;
+	font-size: 180%;
+	border-radius: 8px;
+	border: none;
+}
+
+.titleBar p {
+	padding: 8px;
+    color: white;
+}
+
+.grid2 {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+}
+
+.grid3 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 10px;
+}
+
+.grid4 {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+}
+
+.grid5 {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	grid-gap: 10px;
+}
+
+body p {
+    color: white;
+}
